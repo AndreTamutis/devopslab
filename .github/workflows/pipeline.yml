@@ -51,10 +51,10 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Deploy Heroku
-        env:
-          HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
-        run: heroku container:release -a ${{ secrets.HEROKU_APP_NAME }} web
+      # - name: Deploy Heroku
+      #   env:
+      #     HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
+      #   run: heroku container:release -a ${{ secrets.HEROKU_APP_NAME }} web
 
       # Autenticação do Heroku CLI via API TOKEN
       # https://devcenter.heroku.com/articles/authentication
