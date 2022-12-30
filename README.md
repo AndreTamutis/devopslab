@@ -1,7 +1,7 @@
 # DevOps Hands On
-
-[![Build Status](https://travis-ci.org/bogdan/datagrid.svg?branch=master)](https://sonarcloud.io/summary/overall?id=AndreTamutis_devopslab)
-
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fbogdan%2Fdatagrid.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fbogdan%2Fdatagrid?ref=badge_shield)
+[![DevOpsLab Pipeline](https://github.com/rngarcia/devopslab/actions/workflows/pipeline.yml/badge.svg)]
+(https://github.com/AndreTamutis/devopslab/actions)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=rngarcia_devopslab&metric=alert_status)]
+(https://sonarcloud.io/summary/overall?id=AndreTamutis_devopslab)
 
 Aplicação Simples em Python/Flask com teste usando Unittest
